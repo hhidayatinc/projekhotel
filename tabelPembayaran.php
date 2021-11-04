@@ -24,7 +24,7 @@
 						<th>No Kamar</th>
 						<th>Lama Menginap</th>
 						<th>Total Biaya</th>
-						<th>Aksi</th>
+						<!-- <th>Aksi</th> -->
 					</tr>
 			<?php 
 				include 'koneksi.php';
@@ -41,9 +41,9 @@
 						<td align="center"><?php echo $data['No_Kamar'] ?> </td>
 						<td align="center"><?php echo $data['lama_menginap'] ?> </td>
 						<td align="center"><?php echo $data['Tarif'] ?> </td>
-						<td align="center">
+						<!-- <td align="center">
 						<a  type="submit" href="konfirmasi_pembayaran.php?No_Faktur=<?php echo $data['No_Faktur'];?>" target="_blank" class="btn btn-success">Konfirmasi Pembayaran</a>
-			</td>
+			</td> -->
 			</tr>
 			<?php
 				$no++; 
